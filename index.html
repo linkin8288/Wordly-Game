@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="title">Wordle Clone</title>
+    <link
+      rel="icon"
+      type="imag/png"
+      href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+      <span id="toggle-icon">
+        <span class="toggle-text">Light Mode</span>
+        <i class="fas fa-sun"></i>
+      </span>
+      <label class="theme-switch">
+        <input type="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+    <div class="game-container">
+      <div class="title-container">
+        <h1>WORDLE</h1>
+      </div>
+      <div class="message-container"></div>
+      <div class="tile-container"></div>
+      <div class="key-container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
