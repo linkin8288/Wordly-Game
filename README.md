@@ -1,5 +1,18 @@
 # Wordly-Game
 17/02/2022
+Guess the WORDLE in six tries.
+
+Enter the letter go guess. Hit the enter button to submit.
+
+After each guess, the color of the tiles will change to show how close your guess was to the word.
+
+# Rule
+Yellow color means the letter is in the word and in the correct spot.
+
+Green color means the letter is in the word but in the wrong spot.
+
+Gray color mens the letter not in the word in any spot.
+
 # npm i
 This will install all the necessary dependencies.
 
