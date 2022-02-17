@@ -8,11 +8,13 @@ After each guess, the color of the tiles will change to show how close your gues
 
 # Rule
  
-Greencolor means the letter is in the word and in the correct spot.
+Green color means the letter is in the word and in the correct spot.
 
 Yellow color means the letter is in the word but in the wrong spot.
 
 Gray color mens the letter not in the word in any spot.
+
+Refresh the page to get a new random English word.
 
 # npm i
 This will install all the necessary dependencies.
